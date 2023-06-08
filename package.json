@@ -1,0 +1,23 @@
+{
+  "name": "tf-boilerplate",
+  "version": "1.0.0",
+  "description": "test rien de particulier",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "JULIEN GUILBAUD",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.1",
+    "buffer": "^6.0.3",
+    "parcel": "^2.9.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.7.0",
+    "reset-css": "^5.0.1"
+  }
+}
